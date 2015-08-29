@@ -6,5 +6,5 @@ function handleOpenURL(url) {
     setTimeout(function() {
       window._openURL = url;
     }, 3000);
-  }, 0);
+  }, 250);
 }
