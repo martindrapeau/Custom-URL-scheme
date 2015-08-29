@@ -4,10 +4,10 @@
 function handleOpenURL(url) {
   setTimeout(function() {
     window._openURL = url;
-  }, 250);
+  }, 0);
 }
 function handleOpenUrl(url) {
   setTimeout(function() {
     window._openUrl = url;
-  }, 250);
+  }, 0);
 }
